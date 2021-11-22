@@ -1,10 +1,11 @@
 {
   "name": "handbrake-folder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project for taking a folder of video files and convert them using Handbrake",
   "main": "convert.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "help": "node convert.js -h",
+    "convertPlex": "node convert.js -p \"Chromecast 1080p30 Surround\""
   },
   "repository": {
     "type": "git",
