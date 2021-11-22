@@ -1,0 +1,25 @@
+{
+  "name": "handbrake-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericjmitchell/handbrake-folder.git"
+  },
+  "author": "Eric Mitchell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericjmitchell/handbrake-folder/issues"
+  },
+  "homepage": "https://github.com/ericjmitchell/handbrake-folder#readme",
+  "dependencies": {
+    "cli-progress": "^3.9.1",
+    "glob": "^7.2.0",
+    "handbrake-js": "^6.0.0",
+    "yargs": "^17.2.1"
+  }
+}
